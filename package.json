@@ -1,0 +1,42 @@
+{
+  "name": "pageobject",
+  "version": "0.0.1",
+  "description": "Easy-to-use abstractions of HTML documents, for use in JavaScript testing",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "rm -rf dist && node_modules/.bin/broccoli build dist",
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/truenorth/pageobject.git"
+  },
+  "keywords": [
+    "testing",
+    "pageobject"
+  ],
+  "author": {
+    "name": "Mike North",
+    "email": "michael.l.north@gmail.com",
+    "url": "http://mike.works"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truenorth/pageobject/issues"
+  },
+  "homepage": "https://github.com/truenorth/pageobject",
+  "devDependencies": {
+    "broccoli": "^0.16.3",
+    "broccoli-babel-transpiler": "^5.1.1",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-es6modules": "^0.6.1",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  }
+}
