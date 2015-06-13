@@ -1,4 +1,4 @@
 --reporter dot
 --ui bdd
---compilers js:babel/register
+--compilers js:node_modules/babel/register
 --recursive
