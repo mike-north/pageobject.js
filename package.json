@@ -29,6 +29,8 @@
   },
   "homepage": "https://github.com/truenorth/pageobject",
   "devDependencies": {
+    "babel": "^5.5.7",
+    "babel-runtime": "^5.5.7",
     "broccoli": "^0.16.3",
     "broccoli-babel-transpiler": "^5.1.1",
     "broccoli-cli": "^1.0.0",
@@ -37,6 +39,7 @@
     "broccoli-merge-trees": "^0.2.1",
     "jscs": "^1.13.1",
     "jshint": "^2.8.0",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "mocha-babel": "^3.0.0"
   }
 }
